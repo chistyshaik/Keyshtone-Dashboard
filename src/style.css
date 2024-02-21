@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.headerSection {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+
+.logoSection {
+  flex: 1;
+  border-radius: 50%;
+  width: 22%;
+  padding: 8px;
+}
+
+.logoImg {
+  max-width: 172px;
+}
+
+.pageHeader {
+  width: 78%;
+  font-weight: 700;
+}
+
+.mainSection {
+  display: flex;
+}
+
+.sidenav {
+  width: 20%;
+}
+
+.userSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  padding: 15px;
+}
+
+.userName {
+  font-weight: 700;
+}
+
+.userNamebtn {
+  border: none;
+  outline: none;
+  background-color: lightgray;
+  padding: 8px 10px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sideDashboardHeading {
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.menuItem {
+  padding: 10px;
+  color: grey;
+  cursor: pointer;
+}
+
+.cardView {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin: 10px 20px;
+}
+
+.cardbtn {
+  border: none;
+  outline: none;
+  background-color: lightgray;
+  color: white;
+  padding: 8px 10px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btnSection {
+  padding: 10px;
+}
+
+.singleCard {
+  display: flex;
+  justify-content: space-between;
+  max-height: 72px;
+  width: calc(23% - 20px);
+  padding: 5px 10px;
+  margin: 10px;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+}
+
+.cardName {
+  color: #316ff6;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.cardCount {
+  color: #d3d3d3;
+  padding: 0px 10px 10px 10px;
+}
